@@ -1293,7 +1293,7 @@
 
         <section>
         <div class="block" style="border-color:pink;font-size:90%">
-        <h4 style="color:pink"> 確率の常法定理 </h4>
+        <h4 style="color:pink"> 確率の乗法定理 </h4>
         <p>
         \(P(A) > 0\)のとき
         \[ P(A,B) = P(A)P(B|A) \]
@@ -1340,7 +1340,7 @@
         </div>
         <p style="font-size:80%">
         【証明】<br>
-        確率の常法定理より\(P(A),P(B)>0\)ならば
+        確率の乗法定理より\(P(A),P(B)>0\)ならば
         \[ P(A,B) = P(A)P(B|A) = P(B)P(A|B) \]
         が成立するので両辺を\(P(A)\)で割る。
         <span style="float:right">□</span>
@@ -1381,14 +1381,14 @@
 
         <section>
         <p>
-        確率の常法定理を使えば,同時確率の周辺化は
+        確率の乗法定理を使えば,同時確率の周辺化は<br/>
         \[ P(B)=\sum_{i=1}^{\infty}P(B,A_i) = \sum_{i=1}^{\infty}P(A_i)P(B|A_i) \]
         と書けます。これを使って,ベイズの定理を書き換えた形もよく利用されます。
         </p>
         <div class="block" style="border-color:pink;font-size:90%">
         <h4 style="color:pink"> ベイズの定理 </h4>
         <p>
-        \(B_1,B_2,\cdots\)が互いに素で,\(\Omega=B_1\cup B_2\cup\cdots\)であるならば
+        \(B_1,B_2,\cdots\)が互いに素で,\(\Omega=B_1\cup B_2\cup\cdots\)であるならば<br/>
         \[ P(B_i|A) = \frac{P(B_i)P(A|B_i)}{\displaystyle\sum_{i=1}^{\infty}P(B_i)P(A|B_i)} \]
         である。
         </p>
